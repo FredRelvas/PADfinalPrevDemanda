@@ -123,8 +123,8 @@ Para cada visualização nos notebooks, preste atenção aos seguintes pontos:
 Os dados utilizados neste projeto são fornecidos nos arquivos CSV na pasta `Data Visualization/`:
 
 - **CARGA_ENERGIA.ods**: Contém os dados brutos e da forma que resultou no melhor acesso até o momento.
-- **DADOS_BRUTOS_INPUTADO.csv**: Contém os dados de demanda brutos, onde valores ausentes foram tratados (imputados). Este é o dataset principal para a análise.
-- **DADOS_BRUTOS_MES_ANO.csv**: Uma versão agregada dos dados brutos, mostrando a demanda por mês e ano. Útil para análises de séries temporais.
+- **DADOS_BRUTOS_INPUTADO.csv**: Contém os dados de demanda brutos, onde valores ausentes foram tratados (imputados). 
+- **DADOS_BRUTOS_MES_ANO.csv**: Uma versão agregada dos dados brutos, mostrando a demanda por mês e ano. Pode ser útil para análises de séries temporais.
 
 ## Links Adicionais
 
