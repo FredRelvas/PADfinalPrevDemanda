@@ -13,14 +13,12 @@ O projeto está organizado da seguinte forma:
 │   ├── CARGA_ENERGIA.ods
 │   ├── DADOS_BRUTOS_INPUTADO.csv
 │   ├── DADOS_BRUTOS_MES_ANO.csv
-│   ├── data_seeing.ipynb
 │   ├── data_visualization.ipynb
 │   └── requirements.txt
 └── README.md
 ```
 
 - **`Data Visualization/`**: Pasta contendo os notebooks Jupyter e arquivos de dados relacionados à visualização e análise de dados.
-    - **`data_seeing.ipynb`**: Notebook Jupyter para exploração e visualização inicial dos dados.
     - **`data_visualization.ipynb`**: Notebook Jupyter com visualizações de dados mais aprofundadas.
     - **`requirements.txt`**: Arquivo listando as dependências do Python para os notebooks.
 
@@ -77,7 +75,6 @@ Uma nova aba ou janela do navegador será aberta, mostrando o diretório do proj
 
 Abra e explore os notebooks:
 
-- **data_seeing.ipynb**: Este notebook é ideal para uma primeira olhada nos dados, entendendo suas características, distribuições e possíveis anomalias. Ele contém resultados exploratórios simples sobre como os dados estão estruturados.
 - **data_visualization.ipynb**: Este notebook aprofunda-se nas visualizações, apresentando gráficos mais complexos e insights sobre a demanda, tendências, sazonalidade, etc. É aqui que você encontrará as visualizações finais e mais elaboradas do projeto.
 
 Execute as células: Dentro de cada notebook, você pode executar as células individualmente (clicando na célula e pressionando Shift + Enter) ou todas as células em sequência (no menu "Cell" -> "Run All").
