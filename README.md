@@ -82,6 +82,42 @@ Abra e explore os notebooks:
 
 Execute as células: Dentro de cada notebook, você pode executar as células individualmente (clicando na célula e pressionando Shift + Enter) ou todas as células em sequência (no menu "Cell" -> "Run All").
 
+---
+
+### Utilizando com Google Colab
+
+Você também pode executar os notebooks diretamente no Google Colab, uma plataforma baseada em nuvem que não requer nenhuma instalação local.
+
+Para utilizar os notebooks no Colab, siga estes passos:
+
+1.  **Abra o Google Colab:**
+    * Vá para [colab.research.google.com](https://colab.research.google.com/)
+
+2.  **Clone o repositório:**
+    * No Colab, crie um novo notebook (`File > New notebook`).
+    * Na primeira célula de código, execute o seguinte comando para clonar o repositório:
+        ```python
+        !git clone https://github.com/AndreKoraleski/PADfinalPrevDemanda.git
+        ```
+    * Após a execução, você verá a pasta `PADfinalPrevDemanda` listada no painel de arquivos à esquerda.
+
+3.  **Navegue para o diretório correto e instale as dependências:**
+    * Crie uma nova célula de código e execute os comandos abaixo para mudar para o diretório do projeto e instalar as bibliotecas necessárias:
+        ```python
+        %cd PADfinalPrevDemanda/Data\ Visualization/
+        !pip install -r requirements.txt
+        ```
+
+4.  **Abra e execute os notebooks:**
+    * Agora você pode abrir os notebooks `data_seeing.ipynb` e `data_visualization.ipynb` diretamente no Colab (no painel de arquivos à esquerda, navegue até `PADfinalPrevDemanda/Data Visualization/` e clique nos notebooks).
+    * Dentro de cada notebook, você pode executar as células individualmente (clicando na célula e pressionando `Shift + Enter`) ou todas as células em sequência (no menu "Runtime" -> "Run all").
+
+    * **Links Diretos para os Notebooks (após clonar o repositório e instalar dependências):**
+        * [`data_seeing.ipynb`](https://colab.research.google.com/github/AndreKoraleski/PADfinalPrevDemanda/blob/main/Data%20Visualization/data_seeing.ipynb)
+        * [`data_visualization.ipynb`](https://colab.research.google.com/github/AndreKoraleski/PADfinalPrevDemanda/blob/main/Data%20Visualization/data_visualization.ipynb)
+
+    * **Observação:** Ao abrir os notebooks, o Colab pode solicitar para salvar uma cópia no seu Google Drive. Sinta-se à vontade para salvar uma cópia para fazer suas próprias modificações.
+
 ## Entendendo as Visualizações
 
 Para cada visualização nos notebooks, preste atenção aos seguintes pontos:
