@@ -112,10 +112,6 @@ Para utilizar os notebooks no Colab, siga estes passos:
     * Agora você pode abrir os notebooks `data_seeing.ipynb` e `data_visualization.ipynb` diretamente no Colab (no painel de arquivos à esquerda, navegue até `PADfinalPrevDemanda/Data Visualization/` e clique nos notebooks).
     * Dentro de cada notebook, você pode executar as células individualmente (clicando na célula e pressionando `Shift + Enter`) ou todas as células em sequência (no menu "Runtime" -> "Run all").
 
-    * **Links Diretos para os Notebooks (após clonar o repositório e instalar dependências):**
-        * [`data_seeing.ipynb`](https://colab.research.google.com/github/AndreKoraleski/PADfinalPrevDemanda/blob/main/Data%20Visualization/data_seeing.ipynb)
-        * [`data_visualization.ipynb`](https://colab.research.google.com/github/AndreKoraleski/PADfinalPrevDemanda/blob/main/Data%20Visualization/data_visualization.ipynb)
-
     * **Observação:** Ao abrir os notebooks, o Colab pode solicitar para salvar uma cópia no seu Google Drive. Sinta-se à vontade para salvar uma cópia para fazer suas próprias modificações.
 
 ## Entendendo as Visualizações
