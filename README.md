@@ -86,33 +86,31 @@ Execute as células: Dentro de cada notebook, você pode executar as células in
 
 ### Utilizando com Google Colab
 
-Você também pode executar os notebooks diretamente no Google Colab, uma plataforma baseada em nuvem que não requer nenhuma instalação local.
+Você pode executar os notebooks diretamente no Google Colab, uma plataforma baseada em nuvem que não requer instalação local.
 
-Para utilizar os notebooks no Colab, siga estes passos:
+#### Como fazer
 
-1.  **Abra o Google Colab:**
-    * Vá para [colab.research.google.com](https://colab.research.google.com/)
+1. **Abra o notebook diretamente no Colab:**
 
-2.  **Clone o repositório:**
-    * No Colab, crie um novo notebook (`File > New notebook`).
-    * Na primeira célula de código, execute o seguinte comando para clonar o repositório:
-        ```python
-        !git clone https://github.com/AndreKoraleski/PADfinalPrevDemanda.git
-        ```
-    * Após a execução, você verá a pasta `PADfinalPrevDemanda` listada no painel de arquivos à esquerda.
+   * [`data_visualization.ipynb`](https://colab.research.google.com/github/AndreKoraleski/PADfinalPrevDemanda/blob/main/Data%20Visualization/data_visualization.ipynb)
 
-3.  **Navegue para o diretório correto e instale as dependências:**
-    * Crie uma nova célula de código e execute os comandos abaixo para mudar para o diretório do projeto e instalar as bibliotecas necessárias:
-        ```python
-        %cd PADfinalPrevDemanda/Data\ Visualization/
-        !pip install -r requirements.txt
-        ```
+2. **Clone apenas os arquivos necessários dentro do notebook:**
 
-4.  **Abra e execute os notebooks:**
-    * Agora você pode abrir os notebooks `data_seeing.ipynb` e `data_visualization.ipynb` diretamente no Colab (no painel de arquivos à esquerda, navegue até `PADfinalPrevDemanda/Data Visualization/` e clique nos notebooks).
-    * Dentro de cada notebook, você pode executar as células individualmente (clicando na célula e pressionando `Shift + Enter`) ou todas as células em sequência (no menu "Runtime" -> "Run all").
+   * Descomente e execute a primeira célula para baixar os arquivos essenciais e instalar os pacotes em `requirements.txt`:
+   
+     ```python
+     !wget -q https://raw.githubusercontent.com/AndreKoraleski/PADfinalPrevDemanda/raw/main/Data%20Visualization/requirements.txt
+     !wget -q https://github.com/AndreKoraleski/PADfinalPrevDemanda/raw/main/Data%20Visualization/CARGA_ENERGIA.ods
+     !pip install -r requirements.txt
+     ```
 
-    * **Observação:** Ao abrir os notebooks, o Colab pode solicitar para salvar uma cópia no seu Google Drive. Sinta-se à vontade para salvar uma cópia para fazer suas próprias modificações.
+3. **Execute as demais células normalmente:**
+
+   * Use `Shift + Enter` para executar célula a célula, ou em **Runtime > Run all** para executar todo o notebook.
+
+> **Importante:** O arquivo `.ods` e o `requirements.txt` ficarão disponíveis temporariamente enquanto o ambiente do Colab estiver ativo.
+
+---
 
 ## Entendendo as Visualizações
 
