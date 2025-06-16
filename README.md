@@ -37,7 +37,7 @@ Certifique-se de ter o Python e o Jupyter Notebook instalados em seu ambiente. S
 # Siga as instruções em https://www.anaconda.com/products/distribution
 
 # Ou instalação via pip:
-pip install jupyter pandas matplotlib seaborn
+pip install jupyter
 ```
 
 ### Configuração do Ambiente
