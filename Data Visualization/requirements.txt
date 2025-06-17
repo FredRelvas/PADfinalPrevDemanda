@@ -1,0 +1,8 @@
+# For data visualization
+
+pandas
+openpyxl
+odfpy
+matplotlib
+seaborn
+statsmodels
