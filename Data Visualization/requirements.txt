@@ -6,3 +6,5 @@ odfpy
 matplotlib
 seaborn
 statsmodels
+streamlit
+plotly
