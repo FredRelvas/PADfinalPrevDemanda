@@ -89,15 +89,15 @@ Você pode executar os notebooks diretamente no Google Colab, uma plataforma bas
 
 1. **Abra o notebook diretamente no Colab:**
 
-   * [`data_visualization.ipynb`](https://colab.research.google.com/github/AndreKoraleski/PADfinalPrevDemanda/blob/main/Data%20Visualization/data_visualization.ipynb)
+   * [`data_visualization.ipynb`](https://colab.research.google.com/github/FredRelvas/PADfinalPrevDemanda/blob/main/Data%20Visualization/data_visualization.ipynb)
 
 2. **Clone apenas os arquivos necessários dentro do notebook:**
 
    * Descomente e execute a primeira célula para baixar os arquivos essenciais e instalar os pacotes em `requirements.txt`:
    
      ```python
-     !wget -q https://raw.githubusercontent.com/AndreKoraleski/PADfinalPrevDemanda/raw/main/Data%20Visualization/requirements.txt
-     !wget -q https://github.com/AndreKoraleski/PADfinalPrevDemanda/raw/main/Data%20Visualization/CARGA_ENERGIA.ods
+     !wget -q https://raw.githubusercontent.com/FredRelvas/PADfinalPrevDemanda/raw/main/Data%20Visualization/requirements.txt
+     !wget -q https://github.com/FredRelvas/PADfinalPrevDemanda/raw/main/Data%20Visualization/CARGA_ENERGIA.ods
      !pip install -r requirements.txt
      ```
 
