@@ -89,15 +89,15 @@ Você pode executar os notebooks diretamente no Google Colab, uma plataforma bas
 
 1. **Abra o notebook diretamente no Colab:**
 
-   * [`data_visualization.ipynb`](https://colab.research.google.com/github/AndreKoraleski/PADfinalPrevDemanda/blob/main/Data%20Visualization/data_visualization.ipynb)
+   * [`data_visualization.ipynb`](https://colab.research.google.com/github/FredRelvas/PADfinalPrevDemanda/blob/main/Data%20Visualization/data_visualization.ipynb)
 
 2. **Clone apenas os arquivos necessários dentro do notebook:**
 
    * Descomente e execute a primeira célula para baixar os arquivos essenciais e instalar os pacotes em `requirements.txt`:
    
      ```python
-     !wget -q https://raw.githubusercontent.com/AndreKoraleski/PADfinalPrevDemanda/raw/main/Data%20Visualization/requirements.txt
-     !wget -q https://github.com/AndreKoraleski/PADfinalPrevDemanda/raw/main/Data%20Visualization/CARGA_ENERGIA.ods
+     !wget -q https://raw.githubusercontent.com/FredRelvas/PADfinalPrevDemanda/raw/main/Data%20Visualization/requirements.txt
+     !wget -q https://github.com/FredRelvas/PADfinalPrevDemanda/raw/main/Data%20Visualization/CARGA_ENERGIA.ods
      !pip install -r requirements.txt
      ```
 
@@ -131,6 +131,6 @@ Os dados utilizados neste projeto são fornecidos nos arquivos CSV na pasta `Dat
 - [Docs com análise do AGEMC no projeto FMF](https://docs.google.com/document/d/1PPNHQCxLLV-mb5vX07GgL9dPnaOQVnEGOMxIwyFBJX4/edit?usp=sharing)
 - [Fonte de dados](https://dados.ons.org.br/dataset/carga-energia)
 - [Reunião Semana 1 (02/06/2025)](https://docs.google.com/document/d/1S8HmkO4C1JfwL6B_pDNTo4M_6as4lxON-TS3fyrHrns/edit?usp=sharing)
-- [Reunião Semana 2 (09/06/2025)](https://docs.google.com/document/d/1S8HmkO4C1JfwL6B_pDNTo4M_6as4lxON-TS3fyrHrns/edit?usp=sharing)
-- [Reunião Semana 3 (16/06/2025)](https://docs.google.com/document/d/1S8HmkO4C1JfwL6B_pDNTo4M_6as4lxON-TS3fyrHrns/edit?usp=sharing)
+- [Reunião Semana 2 (09/06/2025)](https://docs.google.com/document/d/1rjECBDM68LrGZmqriIRpL1XzjJfYIcwNqg_mdMtoiVY/edit?usp=sharing)
+- [Reunião Semana 3 (16/06/2025)](https://docs.google.com/document/d/1ePq5ry7FCnolGFuQGN5u5VGuhKJxCJUjcHsQMuPRNsw/edit?usp=sharing)
 
