@@ -8,3 +8,8 @@ seaborn
 statsmodels
 streamlit
 plotly
+pmdarima
+scikit-learn
+prophet
+imageio
+geobr
